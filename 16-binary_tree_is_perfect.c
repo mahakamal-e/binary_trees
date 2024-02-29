@@ -18,7 +18,6 @@ int binary_tree_is_perfect(const binary_tree_t *tree)
 
 	return (size == perfect_size);
 }
-#include "binary_trees.h"
 
 /**
  * binary_tree_size -  a function that measures the size of a binary tree.
@@ -37,7 +36,6 @@ size_t binary_tree_size(const binary_tree_t *tree)
 
 	return (size_tree);
 }
-#include "binary_trees.h"
 
 /**
  * binary_tree_height - get the height ot binary tree.
